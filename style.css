@@ -6,15 +6,6 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    animation: gradientShift 8s ease infinite;
-}
-
-@keyframes gradientShift {
-    0% { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
-    25% { background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); }
-    50% { background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); }
-    75% { background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); }
-    100% { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
 }
 
 .container {
@@ -37,24 +28,18 @@ h1 {
     margin-bottom: 2rem;
     color: #2d2d2d;
     font-size: 2.5rem;
-    background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4);
-    background-size: 300% 300%;
+    background: linear-gradient(45deg, #667eea, #764ba2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    animation: gradientText 3s ease infinite;
-}
-
-@keyframes gradientText {
-    0%, 100% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
+    font-weight: 700;
 }
 
 #counter {
     font-size: 5rem;
     font-weight: bold;
     margin-bottom: 2.5rem;
-    background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+    background: linear-gradient(45deg, #667eea, #764ba2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -111,27 +96,27 @@ button:hover {
 }
 
 #increment {
-    background: linear-gradient(45deg, #ff6b6b, #ee5a24);
+    background: linear-gradient(45deg, #667eea, #764ba2);
 }
 
 #increment:hover {
-    background: linear-gradient(45deg, #ee5a24, #ff6b6b);
+    background: linear-gradient(45deg, #764ba2, #667eea);
 }
 
 #decrement {
-    background: linear-gradient(45deg, #4ecdc4, #44a08d);
+    background: linear-gradient(45deg, #667eea, #764ba2);
 }
 
 #decrement:hover {
-    background: linear-gradient(45deg, #44a08d, #4ecdc4);
+    background: linear-gradient(45deg, #764ba2, #667eea);
 }
 
 #reset {
-    background: linear-gradient(45deg, #45b7d1, #96ceb4);
+    background: linear-gradient(45deg, #667eea, #764ba2);
 }
 
 #reset:hover {
-    background: linear-gradient(45deg, #96ceb4, #45b7d1);
+    background: linear-gradient(45deg, #764ba2, #667eea);
 }
 
 @media (max-width: 600px) {
